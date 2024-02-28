@@ -1,0 +1,78 @@
+.randevu{
+    background-color: #1a1a2e;
+    color: black;
+}
+
+.adsoyad{
+   margin-top: 70px;
+   left: 50px;
+   color: #fff;
+   position: absolute;
+}
+select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+.orta_div{
+    position: absolute;
+    width: 46%;
+    height: 700px;
+    background: #fff;
+    top: 150px;
+    opacity: 0.8;
+
+}
+
+#randevuForm{
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    /*margin-top: 10px; /* Yukarıdan 50px mesafe */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 50%; /* Yüksekliğin yarısı kadar yukarı kaydır */
+    transform: translateY(-50%); /* Yüksekliğin yarısı kadar aşağı kaydır */
+    
+}
+#randevu_div{
+    left: 50px;
+}
+
+#resim_div{
+    right: 50px;
+}
+
+
+#randevubutonu{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media screen and (max-width: 1400px) {
+    .orta_div {
+        width: 100%; /* Ekran genişliği kadar genişlet */
+        position: relative; /* Normal akışa bırak */
+        left: 0; /* Sağa yapışık kalacak şekilde ayarla */
+        right: 0; /* Sola yapışık kalacak şekilde ayarla */
+    }
+
+    #resim_div {
+        margin-top: 20px;
+        width: 100%; /* Tam genişlik */
+        top: 1000px; /* Yukarıdan başlayacak */
+        position: absolute;
+        left:50px; 
+        right:0;
+        
+    }
+ 
+  }

@@ -1,0 +1,79 @@
+body {
+    background-color: #1a1a2e;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    /* background-image: url('arkaplan.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Yatay düzeni dikey düzene çevir */
+    justify-content: center;
+    align-items: center;
+    
+    height: 65vh;
+}
+
+.sil_ekrani {
+    text-align: center;
+    color: #000;
+    padding: 20px;
+    width: 100%; /* Tam genişlik almasını sağla */
+}
+
+h2 {
+    color: black;
+    
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%; /*Tam genişlik almasını sağla*/
+    max-width: 700px; /*Daha iyi okunabilirlik için maksimum genişliği ayarla*/
+    margin: 0 auto; /* Formu konteyner içinde ortala */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left; /* Etiketleri sola hizala */
+    font-size: large;
+    font-style: bold;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column; /* Radio düğmelerini dikey olarak hizala */
+    align-items: flex-start; /* Öğeleri sola hizala */
+}
+
+input[type="radio"] {
+    margin-bottom: 5px; /* Radio düğmeleri arasına boşluk ekleyin */
+    color: #000;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c0392b;
+}
+

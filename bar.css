@@ -1,0 +1,80 @@
+.ana_menu {
+    background-color:  #A9A9A9; /* Navbar arka plan rengi, istediğiniz rengi kullanabilirsiniz */
+    overflow: hidden;
+    width: 100%;
+    position: fixed; /* Navbar'ı sayfanın en üstüne sabitle */
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.ana_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    width: auto;
+}
+
+
+
+
+.ana_menu li {
+   
+    display: inline-block;
+    
+}
+
+.ana_menu li a {
+    display: block;
+    color: black; /* Bağlantı metni rengi, istediğiniz rengi kullanabilirsiniz */
+    text-align: center;
+    padding: 14px 16px;
+    width: auto;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Sans-serif, Arial, Helvetica, sans-serif;    
+}
+
+.ana_menu li a:hover {
+    background-color: darkkhaki; /* Hover durumunda arka plan rengi, istediğiniz rengi kullanabilirsiniz */
+}
+
+
+.alt_menu {
+    display: none; /* Alt menü varsayılan olarak gizlidir */
+    position: absolute; /* Alt menü, ana menü öğesinin altına konumlandırılır */
+    background-color: #A9A9A9; /* Alt menü arka plan rengi */
+    text-align-last: auto;
+    padding: 140px 100px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    
+    padding: 0; /* Alt menü içindeki öğeler arasındaki boşluk */
+  }
+  
+  .ana_menu li:hover .alt_menu {
+    display: block; /* Ana menü öğesinin üzerine gelindiğinde alt menü gösterilir */
+  }
+
+  .metin{
+    text-align: center;
+    font-size: 25px;
+  }
+
+.baslik
+{
+    text-align: center;
+    font-weight: bold;
+    color: darkkhaki ;
+    font-size: 40px;
+}
+.ana_sayfa {
+    margin-left: 0;
+    margin-right: 0;
+   
+  }
